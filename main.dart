@@ -36,8 +36,8 @@ class MyApp extends StatelessWidget {
             if (snapshot.data == true) {
               return HomePage(); // Navigate to RecyclePage if user is logged in
             } else {
-              return HomePage();
-              //return const OnboardingScreen(); // Navigate to OnboardingScreen if user is not logged in
+              //return HomePage();
+              return const OnboardingScreen(); // Navigate to OnboardingScreen if user is not logged in
             }
           }
         },
